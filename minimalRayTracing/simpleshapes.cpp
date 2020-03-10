@@ -261,7 +261,7 @@ void render(
 #ifdef MAYA_STYLE
             float x = (2 * (i + 0.5) / (float)options.width - 1) * scale;
             float y = (1 - 2 * (j + 0.5) / (float)options.height) * scale * 1 / imageAspectRatio;
-#elif
+#else
 
             float x = (2 * (i + 0.5) / (float)options.width - 1) * imageAspectRatio * scale;
             float y = (1 - 2 * (j + 0.5) / (float)options.height) * scale;
